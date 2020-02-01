@@ -1,4 +1,4 @@
-/* Wikipedia solarized-dark */
+/* Wikipedia dark */
 :root {
   --main-bg-color: #073642;
   --main-fg-color: #657b83;
@@ -60,9 +60,23 @@ a:visited {
 }
 
 .toc, .mw-warning, .toccolours {
-
     border: 1px solid var(--main-fg-color);
-
 	background-color: var(--main-bg-color);
+}
 
+.infobox {
+    background-color: inherit;
+    border: 1px solid var(--main-fg-color);
+    color: var(--main-fg-color);
+}
+
+div.thumbinner {
+    background-color: inherit;
+    color: inherit;
+    border: 1px solid var(--main-fg-color);
+}
+
+#footer li {
+   background-color: inherit;
+    color: inherit;
 }
