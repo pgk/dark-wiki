@@ -1,0 +1,68 @@
+/* Wikipedia solarized-dark */
+:root {
+  --main-bg-color: #073642;
+  --main-fg-color: #657b83;
+  --violet: #6c71c4;
+  --magenta: #d33682;
+  --base-two: #eee8d5;
+}
+
+body,p,h1,h2,h3,h4,h5,h6,abbr,code,pre,div,table,ul,ol,li,th,td {
+    background-color: var(--main-bg-color);
+    color: var(--main-fg-color);
+}
+
+a {
+    color: var(--magenta);
+}
+
+#mw-panel .portal .body li a {
+    color: var(--magenta);
+}
+
+#mw-panel .portal .body li a:visited {
+    color: var(--violet);
+}
+
+a:visited {
+  color: var(--violet);
+}
+
+.mw-body, .parsoid-body {
+    background-color: var(--main-bg-color);
+    color: var(--main-fg-color);
+}
+
+.vectorTabs .selected {
+    background: var(--main-bg-color);
+
+}
+
+.vectorTabs li {
+    background-image: none;
+}
+
+.vectorTabs li a {
+    color: var(--magenta);
+}
+
+.vectorTabs li a:visited {
+    color: var(--violet);
+}
+
+.vectorTabs .selected a, .vectorTabs .selected a:visited {
+	color: var(--violet);
+}
+
+.mwe-math-element {
+    padding: 2px;
+    background: lightgray;
+}
+
+.toc, .mw-warning, .toccolours {
+
+    border: 1px solid var(--main-fg-color);
+
+	background-color: var(--main-bg-color);
+
+}
