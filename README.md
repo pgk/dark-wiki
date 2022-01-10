@@ -6,4 +6,4 @@ Dark CSS Theme for WikiPedia. Inspired by Solarized.
 - paste the contents of dark-wiki.css.
 - Enjoy
 
-![screenshot](screenshot.png)
+<img width="1323" alt="Screenshot 2022-01-10 at 9 23 20 PM" src="https://user-images.githubusercontent.com/500744/148827697-1b8851f9-2a66-4283-8ce0-ebf7c0903e40.png">
