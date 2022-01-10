@@ -1,82 +1,119 @@
 /* dark-wiki */
 :root {
   --main-bg-color: #073642;
-  --main-fg-color: #657b83;
-  --violet: #6c71c4;
-  --magenta: #d33682;
+  --main-fg-color: #93a1a1;
+
   --base-two: #eee8d5;
+  --base03:    #002b36;
+  --base02:    #073642;
+  --base01:    #586e75;
+  --base00:    #657b83;
+  /* Foreground */
+  --base0:     #839496;
+  --base1:     #93a1a1;
+  --base2:     #eee8d5;
+  --base3:     #fdf6e3;
+  --yellow:    #b58900;
+  --orange:    #cb4b16;
+  --red:       #dc322f;
+  --magenta:   #d33682;
+  --violet:    #6c71c4;
+  --blue:      #268bd2;
+  --cyan:      #2aa198;
+  --green:     #859900;
 }
 
 body,p,h1,h2,h3,h4,h5,h6,abbr,code,pre,div,table,ul,ol,li,th,td {
-    background-color: var(--main-bg-color);
-    color: var(--main-fg-color);
+    background-color: var(--main-bg-color)!important;
+    color: var(--main-fg-color)!important;
 }
 
-a {
-    color: var(--magenta);
+a, .vector-menu-portal .vector-menu-content li a, .vector-menu-tabs li a {
+    color: var(--cyan)!important;
 }
 
 #mw-panel .portal .body li a {
-    color: var(--magenta);
+    color: var(--cyan)!important;
 }
 
 #mw-panel .portal .body li a:visited {
-    color: var(--violet);
+    color: var(--green)!important;
 }
 
-a:visited {
-  color: var(--violet);
+a:visited, .vector-menu-portal .vector-menu-content li a:visited, .vector-menu-tabs li a {
+  color: var(--green)!important;
 }
 
 .mw-body, .parsoid-body {
-    background-color: var(--main-bg-color);
-    color: var(--main-fg-color);
+    background-color: var(--main-bg-color)!important;
+    color: var(--main-fg-color)!important;
 }
 
 .vectorTabs .selected {
-    background: var(--main-bg-color);
+    background: var(--main-bg-color)!important;
 
 }
 
 .vectorTabs li {
-    background-image: none;
+    background-image: none!important;
 }
 
 .vectorTabs li a {
-    color: var(--magenta);
+    color: var(--cyan)!important;
 }
 
 .vectorTabs li a:visited {
-    color: var(--violet);
+    color: var(--green)!important;
 }
 
 .vectorTabs .selected a, .vectorTabs .selected a:visited {
-	color: var(--violet);
+	color: var(--green)!important;
 }
 
 .mwe-math-element {
-    padding: 2px;
-    background: lightgray;
+    padding: 2px!important;
+    background: lightgray!important;
 }
 
 .toc, .mw-warning, .toccolours {
-    border: 1px solid var(--main-fg-color);
-	background-color: var(--main-bg-color);
+    border: 1px solid var(--main-fg-color)!important;
+	background-color: var(--main-bg-color)!important;
 }
 
 .infobox {
     background-color: inherit;
-    border: 1px solid var(--main-fg-color);
-    color: var(--main-fg-color);
+    border: 1px solid var(--main-fg-color)!important;
+    color: var(--main-fg-color)!important;
 }
 
 div.thumbinner {
     background-color: inherit;
     color: inherit;
-    border: 1px solid var(--main-fg-color);
+    border: 1px solid var(--main-fg-color)!important;
 }
 
 #footer li {
    background-color: inherit;
     color: inherit;
+}
+
+#content, #mp-topbanner, .mw-parser-output #mp-topbanner, .mw-body, .mp-bordered, .mw-parser-output, .MainPageBG, .mp-h2, #right-navigation, #left-navigation,
+.mw-portlet, .mw-portlet-namespaces, .vector-menu, .vector-menu-tabs, .vector-menu-content, .vector-menu-content-list, .mw-list-item, .infobox-above,
+.infobox-header, .catlinks, .navbox-title, .navbox-styles, .nomobile, .navbox, .vector-menu-tabs .selected {
+  background-color: var(--main-bg-color)!important;
+    border-color: var(--main-fg-color)!important;
+  color: var(--main-fg-color)!important;
+    background: var(--main-bg-color)!important;
+}
+
+.mw-parser-output a.external {
+    color: var(--yellow)!important;
+}
+.mw-parser-output a.external:visited {
+    color: var(--orange)!important;
+}
+
+
+.vector-menu-tabs li {
+    background-image: none;
 }
